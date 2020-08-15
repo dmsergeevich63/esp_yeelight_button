@@ -10,11 +10,15 @@
    * Двойное нажатие вкл/выкл вторую лампу
    
    Для использования требуется заполнить следующие поля:
+   
+   ```CPP
    const char* ssid = ""; //Enter SSID
 const char* password = ""; //Enter Password
-   
+```
+   ```CPP
    const char* H0 = "192.168.0.85"; // YLXD50YL //основная лампа
 const char* H2 = "192.168.0.226"; //bslamp //вторая лампа
+```
 
   
   
