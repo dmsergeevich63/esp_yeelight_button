@@ -34,7 +34,7 @@ int count_stable = 0;
 
 #include <ESPAsyncWebServer.h>
 #include "OneButton.h" // Setup a new OneButton on pin A1.
-OneButton button1(0, true);
+OneButton button1(0, true); // 0 тут номер пина esp, для моих плат это кнопка Flash
 
 
 WiFiClient client;
@@ -43,11 +43,9 @@ WiFiClient clientt;
 WiFiClient clienttt;
 
 // Replace with your network credentials
-const char* ssid = "Asus"; //Enter SSID// ASUS ПЛОХО РАБОТАЕТ С esp32// Asus(xiaomi) РАБОТАЕТ ОТЛИЧНО
-const char* password = "Vesta@111"; //Enter Password
+const char* ssid = ""; //Enter SSID
+const char* password = ""; //Enter Password
 
-//const char* ssid = "mi9t"; //Enter SSID
-//const char* password = "samaracity";
 
 
 int l = 0;
